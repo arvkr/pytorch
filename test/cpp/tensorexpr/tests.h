@@ -163,7 +163,8 @@ namespace jit {
   _(LoopNestReorderLongStringOfPreOrphans)  \
   _(LoopNestReorderLongStringOfPostOrphans) \
   _(LoopNestReorderLongStringFull)          \
-  _(OuterLoopVectorization)
+  _(OuterLoopVectorization)                 \
+  _(Kernel_1)
 
 #define TH_FORALL_TENSOREXPR_TESTS_LLVM(_) \
   _(LLVMByteImmTest)                       \
